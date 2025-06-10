@@ -1,0 +1,9 @@
+precio_producto = 345000
+cantidad = 6
+descuento = 0.25
+total_sin_descuento = precio_producto*cantidad
+monto_descuento = descuento*total_sin_descuento
+total_con_descuento = total_sin_descuento-monto_descuento
+print("Total sin descuento:",total_sin_descuento)
+print("Monto de descuento:",monto_descuento)
+print("Total con descuento:",total_con_descuento)
